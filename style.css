@@ -1,5 +1,5 @@
 .header{
-    
+    background-color: #1F2937;
 }
 
 .upper{
@@ -7,4 +7,9 @@
 }
 .lower{
     display: flex;
+}
+
+.odinlogo{
+    height: 50px;
+    width: 50px;
 }

@@ -9,9 +9,13 @@ body{
 .upper{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .lower{
     display: flex;
+    justify-content:space-around;
+    
+    align-items: center;
 }
 
 .odinlogo{
@@ -28,4 +32,38 @@ ul{
 li{
     color: #F9FaF8;
     font-size: 24px;
+}
+
+.title{
+    font-size: 48px;
+    color: #F9FaF8;
+    font-weight: 900;
+}
+
+.title-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button{
+    background-color: #3882F6;
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    color: #F9FaF8;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.header-text{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.odiniamge{
+    height: 550px;
+    width: 700px;
+    padding: 30px;
 }
